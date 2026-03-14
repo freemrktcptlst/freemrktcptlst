@@ -206,8 +206,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     .mascot-right {
         right: 0;
-        width: 175px;
-        height: 175px;
+        width: 210px;
+        height: 210px;
         object-fit: cover;
         object-position: center center;
         mask-image: linear-gradient(to left, black 0%, black 80%, transparent 100%);
@@ -280,10 +280,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .nav-link {
         color: var(--phosphor-green);
         text-decoration: none;
-        font-size: 22px;
-        letter-spacing: 2px;
+        font-size: 16px;
+        letter-spacing: 1px;
         transition: all 0.3s;
-        padding: 12px 24px;
+        padding: 8px 18px;
         border: 1px solid var(--phosphor-dim);
         background: rgba(51, 255, 51, 0.02);
     }
@@ -2071,6 +2071,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     @media (max-width: 480px) {
         .screen-content {
             padding: 10px 8px;
+            position: relative;
         }
 
         .mascot-left {
@@ -2079,19 +2080,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         .mascot-right {
             display: block;
-            position: fixed;
+            position: absolute;
             top: 0;
             right: 0;
-            width: 90px;
-            height: 90px;
+            width: 65px;
+            height: 65px;
             transform: none;
-            z-index: 100;
+            z-index: 10;
             border: none;
             border-radius: 0;
-            mask-image: linear-gradient(to bottom left, black 0%, black 60%, transparent 100%);
-            -webkit-mask-image: linear-gradient(to bottom left, black 0%, black 60%, transparent 100%);
-            opacity: 0.9;
-            filter: brightness(1.1) drop-shadow(0 0 10px rgba(51, 255, 51, 0.4));
+            mask-image: linear-gradient(to bottom left, black 0%, black 70%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to bottom left, black 0%, black 70%, transparent 100%);
+            opacity: 0.85;
+            filter: brightness(1.1) drop-shadow(0 0 8px rgba(51, 255, 51, 0.3));
         }
 
         .header-title {
